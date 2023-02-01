@@ -22,7 +22,7 @@
             <div class="container-modificabile  mt-5">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center mt-5">
-                        <h1>To Do List</h1>
+                        <h1>Lista della Spesa</h1>
                     </div>
                     <div class="col-12 d-flex justify-content-center">
                         <ul class="list-unstyled">
@@ -32,7 +32,16 @@
                         </ul>
                     </div>
                 </div>
-
+                <div class="row my-5">
+                    <div class="col-6">
+                        <input type="text" v-model="name" class="ms-2 form-control" placeholder="Aggiungi prodotto" >
+                        <!-- mi ero dimenticato il V-MODEL -->
+                    </div>
+                    <div class="col-2">
+                        <button type="submit" class="btn btn-primary" @click="add">Aggiungi</button>
+                    
+                    </div>
+                </div>
             </div>
         </div>
     </div>

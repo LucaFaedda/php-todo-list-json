@@ -1,18 +1,1 @@
-[
-    {
-        "name": "Pane",
-        "fatto": false
-    },
-    {
-        "name": "Fagioli",
-        "fatto": false
-    },
-    {
-        "name": "Insalata",
-        "fatto": false
-    },
-    {
-        "name": "Fornaggio",
-        "fatto": false
-    }
-]
+[{"name":"Pane","fatto":false},{"name":"Fagioli","fatto":false},{"name":"Insalata","fatto":false},{"name":"Fornaggio","fatto":false},{"name":"Cioccolata","fatto":false},{"name":"Pasta","fatto":false}]
