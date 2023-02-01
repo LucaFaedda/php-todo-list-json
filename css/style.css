@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html body {
+    background-color: rgb(20, 20, 77);
+}
+
+.container-modificabile {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: aliceblue;
+}

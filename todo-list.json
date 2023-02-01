@@ -1,18 +1,18 @@
 [
     {
-        "name": "HTML",
+        "name": "Pane",
         "fatto": false
     },
     {
-        "name": "CSS",
+        "name": "Fagioli",
         "fatto": false
     },
     {
-        "name": "JavaScript",
+        "name": "Insalata",
         "fatto": false
     },
     {
-        "name": "PHP",
+        "name": "Fornaggio",
         "fatto": false
     }
 ]

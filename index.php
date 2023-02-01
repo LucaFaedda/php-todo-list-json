@@ -19,14 +19,20 @@
 <body>
     <div id="app">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <ul class="list-unstyled">
-                        <li v-for="item in todolist">
-                            {{item.name}}
-                        </li>
-                    </ul>
+            <div class="container-modificabile  mt-5">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center mt-5">
+                        <h1>To Do List</h1>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <ul class="list-unstyled">
+                            <li v-for="item in todolist" class="my-2">
+                                {{item.name}}
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
