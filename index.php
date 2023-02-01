@@ -1,9 +1,6 @@
 <?php 
 
- 
 
-    // header('Content-Type: application/json');
-    // echo json_encode($linguaggi);
 
 ?>
 
@@ -20,6 +17,19 @@
     <title>To Do List json</title>
 </head>
 <body>
-    
+    <div id="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-unstyled">
+                        <li v-for="item in todolist">
+                            {{item.name}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/script.js"></script>    
 </body>
 </html>
