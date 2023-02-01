@@ -1,0 +1,18 @@
+[
+    {
+        "name": "HTML",
+        "fatto": false
+    },
+    {
+        "name": "CSS",
+        "fatto": false
+    },
+    {
+        "name": "JavaScript",
+        "fatto": false
+    },
+    {
+        "name": "PHP",
+        "fatto": false
+    }
+]
