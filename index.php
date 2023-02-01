@@ -22,10 +22,10 @@
             <div class="container-modificabile  mt-5">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center mt-5">
-                        <h1>Lista della Spesa</h1>
+                        <h1 class="text-danger">Lista della Spesa</h1>
                     </div>
                     <div class="col-12 d-flex justify-content-center">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled border p-3 border-success border-3 rounded-2">
                             <li v-for="item in todolist" class="my-2">
                                 {{item.name}}
                             </li>
