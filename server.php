@@ -5,7 +5,8 @@
     $string = file_get_contents('todo-list.json'); //  mi vado a recuperare il contenuto di todo-list
     // var_dump($string) // controllo se me lo ha prelevato
 
-    $lista_linguaggio = json_decode($string, true); // trasformo il valore da stringa ad un array
+    $lista_linguaggio = json_decode($string, true); // trasformo il valore da stringa ad un array true serve per dare l'ok a trasformarmelo in array associativo
+
     // var_dump($lista_linguaggio); controllo se me lo ha trasformato
 
     if(isset($_POST['nuovoItem'])){  // se è vero che c'è un valore POST allora avviene ---->
